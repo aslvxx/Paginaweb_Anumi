@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&display=swap');
+
+:root {
+  /* Fonts */
+  --font-title: 'Fredoka', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+
+  /* Colors */
+  --color-primary: #FFB3C6;
+  --color-primary-light: #FFE5EC;
+  --color-primary-dark: #FF85A1;
+  --color-secondary: #FFC2D1;
+  --color-bg-base: #FFF9F2; /* Cream white/warm beige */
+  --color-card-bg: #FFFFFF;
+  --color-text-main: #6F5E5C; /* Warm soft brown instead of harsh black */
+  --color-text-muted: #9E8E8C;
+  --color-border: #F3EBE4;
+  
+  /* Accent Colors */
+  --color-accent-pink: #FFB3C6;
+  --color-accent-purple: #E8DEF8;
+  --color-accent-blue: #BFDBFE;
+  --color-accent-yellow: #FEF08A;
+  --color-accent-mix: linear-gradient(135deg, #FFB3C6 0%, #E8DEF8 50%, #BFDBFE 100%);
+  
+  /* Shadow & Roundness */
+  --radius-sm: 10px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --shadow-sm: 0 4px 10px rgba(111, 94, 92, 0.05);
+  --shadow-md: 0 10px 30px rgba(255, 179, 198, 0.15);
+  --shadow-lg: 0 15px 40px rgba(255, 179, 198, 0.25);
+  --shadow-glow: 0 0 20px rgba(255, 179, 198, 0.4);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
