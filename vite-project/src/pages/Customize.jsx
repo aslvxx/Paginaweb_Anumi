@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../context/AppContext';
 import { ArrowLeft, Sparkles, Heart, Gift, Plus, Minus, ShoppingCart, Check } from 'lucide-react';
-import moonbloomImage from '../assets/moonbloom.png';
+import moonbloomImage from '../assets/moonbloom_scoop.png';
 
 // Fallback in case selectedScoop is empty
 const defaultScoop = {
