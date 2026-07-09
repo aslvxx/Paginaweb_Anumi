@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {AppContext} from '../context/AppContext';
 import {ScoopCard} from '../components/ScoopCard';
-import {Sparkles, Gift, ShieldCheck, Heart, MapPin, Clock, MessageCircle, Video, Facebook} from 'lucide-react';
+import {Sparkles, Gift, ShieldCheck, Heart, MapPin, Clock, MessageCircle, Video} from 'lucide-react';
 
 import anumiImage from '../assets/sinfondo.png';
 import moonbloomImage from '../assets/moonbloom.png';
@@ -197,7 +197,7 @@ export const Home = () =>{
                                 className="social-btn"
                                 style={{ color: '#E1306C' }}
                             >
-                                <Facebook size={22} />
+                                <Sparkles size={22} />
                                 Síguenos en Facebook
                             </a>
 
