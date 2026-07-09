@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../context/AppContext';
 import { ArrowLeft, Sparkles, Heart, Gift, Plus, Minus, ShoppingCart, Check } from 'lucide-react';
-import moonbloomImage from '../assets/moonbloom_scoop.png';
+import logoA from '../assets/logoA.png'; // Fallback image for scoops without an image
 
 // Fallback in case selectedScoop is empty
 const defaultScoop = {
@@ -10,7 +10,7 @@ const defaultScoop = {
   price: 580,
   minProducts: 1,
   maxProducts: 10,
-  image: moonbloomImage,
+  image: logoA,
   description: 'Un scoop equilibrado y mágico con una excelente variedad de tus accesorios Sanrio favoritos.'
 };
 
