@@ -7,7 +7,7 @@ import type { PasswordResetEmail } from '../types/password-reset-email.type';
 export class ConsoleMailProvider implements MailProvider {
   private readonly logger = new Logger(ConsoleMailProvider.name);
 
-  async sendPasswordResetEmail(email: PasswordResetEmail): Promise<void> {
+  sendPasswordResetEmail(email: PasswordResetEmail): Promise<void> {
     this.logger.log(`Correo de recuperación para: ${email.to}`);
 
     this.logger.debug(
@@ -20,5 +20,7 @@ export class ConsoleMailProvider implements MailProvider {
         '----------------------------',
       ].join('\n'),
     );
+
+    return Promise.resolve();
   }
 }

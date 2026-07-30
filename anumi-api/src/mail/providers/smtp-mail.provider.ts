@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import nodemailer, { type Transporter } from 'nodemailer';
-
+import escapeHtml from 'escape-html';
 import type { MailProvider } from '../interfaces/mail-provider.interface';
 import type { PasswordResetEmail } from '../types/password-reset-email.type';
 
